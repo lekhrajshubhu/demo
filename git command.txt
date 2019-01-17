@@ -1,0 +1,61 @@
+git init -> .git file
+
+git remote add origin "https://github.com/lekhrajshubhu/demo.git"
+
+git pull origin master
+
+
+
+=> create a file and write command
+
+git status
+
+
+git add index.html
+
+git status
+
+
+git commit -m "first commit"
+
+=>create multiple file
+
+
+git commit -A
+
+
+git commit -a -m "All files are added"
+
+git log
+
+==========================
+	branching
+==========================
+
+git branch firstbranch
+
+git checkout firstbrahcn => go to first branch
+
+=============
+push to branch
+=============
+
+git checkout firstbranch
+
+git push origin firstbranch
+
+
+---------------
+
+git checkout master
+
+git push origin master
+
+
+
+
+
+
+
+
+
