@@ -1,0 +1,23 @@
+sub
+sup
+del
+
+
+folder structure
+relative url
+
+mailto:
+<a href="mailto:lekhraj@gmail.com">Email Lekhraj 
+</a>
+
+
+linking part of same page
+
+istokphoto
+gettyimages
+veer
+sxc
+fotolia
+
+
+:first-line

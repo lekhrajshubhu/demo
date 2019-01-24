@@ -1,0 +1,54 @@
+/* ----------------
+	global css
+------------------- */
+*{
+	font-family: sans-serif;
+}
+ul{
+	list-style: none;
+}
+
+header{
+	background: #a53030;
+	height: 90px;
+}
+#logo{
+	float: left;
+}
+#navbar{
+	float: right;
+}
+#navbar ul{
+	padding: 15px;
+	color: #fff;
+}
+#navbar ul li{
+	display: inline;
+	margin-right: 10px;
+    padding: 10px;
+    border-bottom:1px solid #fff;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+	transition-duration: 1s;
+
+}
+#navbar ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+#navbar ul li:hover{
+	background: yellow;
+	border-bottom: 1px solid yellow;
+}
+
+
+#login_reg{
+	float: right;
+	padding: 15px;
+}
+#login_reg a{
+	border: 1px solid #fff;
+	border-radius: 2px;
+	padding: 5px 10px;
+	color: #fff;
+}

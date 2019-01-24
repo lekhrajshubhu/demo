@@ -21,7 +21,7 @@ git commit -m "first commit"
 =>create multiple file
 
 
-git commit -A
+git add -A
 
 
 git commit -a -m "All files are added"
