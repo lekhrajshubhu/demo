@@ -1,0 +1,110 @@
+/* ----------------------
+	global style
+------------------------- */
+*{
+	font-family: sans-serif;
+}
+ul{
+	list-style-type: none;
+}
+a:link{
+	color: #000;
+	text-decoration: none;
+}
+
+
+
+/* ----------------------
+	styling header
+------------------------ */
+
+header{
+	background: #009688;
+	height: 100px;
+	width: 100%;
+}
+#logo img{
+	height: 100px;
+	width: 100px;
+	float: left;
+}
+
+#loginRegBtn{
+	float: right;
+	margin: 40px 20px;
+}
+#loginRegBtn a{
+	color: #009688;
+	background:#fff;
+	padding: 10px 15px;
+	border-radius: 3px;
+	font-weight: bold;
+	margin-right: 7px;
+}
+
+
+#menu{
+	float: left;
+}
+
+#menu ul{
+	margin: 40px 20px 40px 40px;
+}
+#menu ul li{
+	float: left;
+}
+
+#menu ul li a{
+	color: #fff;
+	margin-right:20px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.dropdown-content {
+	display: none;
+  position: absolute;
+  background-color: green !important;
+  width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  	color: black;
+	margin-left: 20px;
+	padding: 5px 0;
+	margin-top: 5px;
+	margin-buttom: 5px;
+  	text-decoration: none;
+  	display: block;
+  	text-align: left;
+}
+.dropdown-content a:hover {
+	color: #fafafa;
+	background-color: #009688;
+}
+
+/*.dropdown:hover .dropdown-content {
+  display: block;
+}
+*/
+
+main{
+	width: 100%;
+}
+
+.container{
+	width: 900px;
+	margin: 0px auto;
+}
+
+#left{
+	float: left;
+	width:500px;
+	background: green;
+}
+#right{
+	float: left;
+	width:400px;
+	background: red;
+}
